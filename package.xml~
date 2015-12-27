@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>myfirstrobot_kinematics</name>
+  <version>0.0.0</version>
+  <description>The myfirstrobot_kinematics package</description>
+
+  <maintainer email="ismaelrodriguez1991@gmail.com">ismael</maintainer>
+
+<license>MIT</license>
+  <url type="bugtracker">https://github.com/rodriguezismael/myfirstrobot_kinematics/issues</url>
+  <url type="repository">https://github.com/rodriguezismael/myfirstrobot_kinematics</url>
+
+  <author email="ismaelrodriguez1991@gmail.com">Ismael Rodriguez</author>
+
+ 
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>kdl_conversions</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>kdl_parser</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>kdl_parser</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>kdl_conversions</run_depend>
+
+  <export>
+  </export>
+
+</package>
